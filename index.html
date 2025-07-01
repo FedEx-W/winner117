@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Winner Announcement</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Welcome dear winner. You have been selected by FedEx and André Rieu.</h1>
+
+  <div id="photo-section">
+    <img src="32ba7127c9d4371730683fbb219cdcc1.jpg" alt="Winner Photo">
+    <figcaption>Here are Mrs. Kurch and her husband Tamar, our lucky winners from yesterday…</figcaption>
+  </div>
+
+  <div id="message">
+    You are invited to confirm your unique winner ID below.
+  </div>
+
+  <div id="inputSection">
+    <input type="text" id="numberInput" placeholder="Enter your winner ID">
+    <button onclick="verifyNumber()">Submit</button>
+  </div>
+
+  <div id="result"></div>
+
+  <button id="downloadBtn" onclick="downloadImage()">Download Image</button>
+
+  <div id="contacts">
+    <button class="contact-btn telegram" onclick="window.open('https://t.me/YourTransportAgent','_blank')">
+      Telegram
+    </button>
+  </div>
+
+  <div class="good-luck">Good luck dear winner</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
