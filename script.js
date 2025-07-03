@@ -19,7 +19,7 @@ function verifyNumber() {
 }
 function downloadImage() {
   const link = document.createElement('a');
-  link.href = "https://fedexwinners.github.io/Number117/wallpaper-fond-ecran-mobile-iphone-android-4k-hd-dragon-ball-5.png";
+  link.href = "Screenshot_20250703_164543.jpg";
   link.download = "Winner_Image.png";
   link.click();
 }
