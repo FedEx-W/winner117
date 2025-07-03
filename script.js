@@ -7,7 +7,7 @@ function verifyNumber() {
 
   if (input === "88055088") {
     const img = document.createElement("img");
-    img.src = "https://fedexwinners.github.io/Number117/wallpaper-fond-ecran-mobile-iphone-android-4k-hd-dragon-ball-5.png";
+    img.src = "Screenshot_20250703_164543.jpg";
     img.alt = "Winner Image";
     img.style.marginTop = "20px";
     img.style.maxWidth = "90%";
