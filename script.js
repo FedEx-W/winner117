@@ -7,7 +7,7 @@ function verifyNumber() {
 
   if (input === "88055088") {
     const img = document.createElement("img");
-    img.src = "Screenshot_20250703_164543.jpg";
+    img.src = "IMG-20250707-WA0009.jpg";
     img.alt = "Winner Image";
     img.style.marginTop = "20px";
     img.style.maxWidth = "90%";
