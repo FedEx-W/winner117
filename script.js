@@ -19,7 +19,7 @@ function verifyNumber() {
 }
 function downloadImage() {
   const link = document.createElement('a');
-  link.href = "https://fedex-w.github.io/winner117/";
+  link.href = "IMG-20250707-WA0009.jpg";
   link.download = "IMG-20250707-WA0009.jpg";
   link.click();
 }
